@@ -1,0 +1,7 @@
+SLACK_TOKEN = "YOUR-SLACK-TOKEN-HERE"
+COMMAND_TOKEN = "YOUR-SLACK-SLASH-TOKEN"
+COMMAND_NAME[] = "/yourcommand"
+; Use {user} for replace with name of selected user of your team.
+; Use {text} for add the parameter passed to the slash command.
+; You can use Markdown formatting.
+TEXT = "*Sorteo* de `{text}`, el seleccionado fue: {user}"
